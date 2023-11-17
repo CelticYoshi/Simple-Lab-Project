@@ -528,7 +528,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1710926471}
-  - component: {fileID: 1710926470}
   - component: {fileID: 1710926469}
   m_Layer: 0
   m_Name: Spawn Manager
@@ -555,20 +554,6 @@ MonoBehaviour:
   - {fileID: 8023849312309677921, guid: cc34d949ed159774d9c07d3b4f5788a7, type: 3}
   - {fileID: 2391306071829019839, guid: 98fef8d498afa2b449f5b0ace9bc542b, type: 3}
   powerup: {fileID: 549547552204252029, guid: 4eddd98e7f6d12347a11edeafb9cb0b1, type: 3}
---- !u!114 &1710926470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710926468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e721c1d3e5a484db909cf72ca2736f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemies: []
-  powerup: {fileID: 0}
 --- !u!4 &1710926471
 Transform:
   m_ObjectHideFlags: 0
